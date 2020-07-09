@@ -3,7 +3,7 @@ package Usuario;
 import java.util.Date;
 
 public class Administrador extends Persona{
-
+	protected Persona[] registrados;
 	public Administrador(String usuario, String clave, String nombre, String apellido, String cedula, String direccion,
 			Date fechaNac) {
 		super(usuario, clave, nombre, apellido, cedula, direccion, fechaNac);
